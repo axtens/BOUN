@@ -1,0 +1,41 @@
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on June 18, 2008 13:10:51
+!***********************************************************************
+
+  - The following files were added to the project:
+        server.idl
+        BOUNGlobal.f90
+        serverhelper.f90
+        server.def
+        dllmain.f90
+        clsfactty.f90
+        clsfact.f90
+        IUnicodeNotation.f90
+        UnicodeNotationTY.f90
+        UIUnicodeNotation.f90
+        UUnicodeNotationTY.f90
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on June 18, 2008 13:16:08
+!***********************************************************************
+
+  - The file UIUnicodeNotation+.f90 has been generated with the following changes.
+    You must merge these changes with the existing file UIUnicodeNotation.f90:
+        - The signature of the method IUnicodeNotation_Notate has changed.
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on June 18, 2008 13:21:26
+!***********************************************************************
+
+  - The file UIUnicodeNotation+.f90 has been generated with the following changes.
+    You must merge these changes with the existing file UIUnicodeNotation.f90:
+        - The signature of the method IUnicodeNotation_Notate has changed.
+
+!***********************************************************************
+!  Notes added by the COM Server Wizard on June 20, 2008 11:42:58
+!***********************************************************************
+
+  - The file UIUnicodeNotation+.f90 has been generated with the following changes.
+    You must merge these changes with the existing file UIUnicodeNotation.f90:
+        - The method IUnicodeNotation_Generate has been added.

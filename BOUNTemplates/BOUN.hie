@@ -1,0 +1,102 @@
+TYPELIB_ID = "A3F9F222-462D-4412-A5B9-AB7543C9387B"
+TYPELIB_VERSION = "1.0"
+CLASS : UnicodeNotation
+{
+    INTERFACE : IUnicodeNotation
+    {
+        METHOD : Notate
+        {
+            ARGUMENT : sString
+            {
+                IDLDATATYPE = "VARIANT"
+                DATATYPE = "TYPE(VARIANT)"
+                INTENT = "IN"
+                RANK = "1"
+            }
+            ARGUMENT : nLen
+            {
+                IDLDATATYPE = "long"
+                DATATYPE = "INTEGER(4)"
+                INTENT = "IN"
+                RANK = "1"
+            }
+            ARGUMENT : aArray
+            {
+                RETVAL = "T"
+                IDLDATATYPE = "VARIANT"
+                DATATYPE = "TYPE(VARIANT)"
+                INTENT = "Out"
+                RANK = "1"
+            }
+            AUTOID = "1"
+            HELPSTRING = "Convert UTF16 string into U+hhhh notation"
+        }
+        METHOD : get_Coalesce
+        {
+            ARGUMENT : VALUE
+            {
+                RETVAL = "T"
+                IDLDATATYPE = "VARIANT_BOOL"
+                DATATYPE = "LOGICAL(2)"
+                INTENT = "out"
+                RANK = "1"
+            }
+            PROPERTY = "T"
+            PROPINTENT = "propget"
+            AUTOID = "2"
+            HELPSTRING = "Control whether surrogates are notated separately, or as one UTF32 value"
+        }
+        METHOD : put_Coalesce
+        {
+            ARGUMENT : VALUE
+            {
+                IDLDATATYPE = "VARIANT_BOOL"
+                DATATYPE = "LOGICAL(2)"
+                INTENT = "in"
+                RANK = "1"
+            }
+            PROPERTY = "T"
+            PROPINTENT = "propput"
+            AUTOID = "2"
+            HELPSTRING = "Control whether surrogates are notated separately, or as one UTF32 value"
+        }
+        METHOD : Generate
+        {
+            ARGUMENT : sInput
+            {
+                IDLDATATYPE = "VARIANT"
+                DATATYPE = "TYPE(VARIANT)"
+                INTENT = "IN"
+                RANK = "1"
+            }
+            ARGUMENT : sOutput
+            {
+                RETVAL = "T"
+                IDLDATATYPE = "VARIANT"
+                DATATYPE = "TYPE(VARIANT)"
+                INTENT = "Out"
+                RANK = "1"
+            }
+            AUTOID = "3"
+            HELPSTRING = "Receive U+[hh]hhhh and return UTF16 equivalent"
+        }
+        IID = "7F6C35E3-F2AA-41F3-8B65-452E50E234FE"
+        OLEAUTOMATION = "T"
+        NEXT_AUTOID_HEX = "F"
+        DEFAULT = "T"
+        NEXT_AUTOID = "4"
+        DUAL = "T"
+    }
+    INSTANCETYPE : UnicodeNotation_InstanceData
+    {
+        CONSTRUCTOR = "UnicodeNotation_CONSTRUCTOR"
+        USE = "UnicodeNotation_USE"
+        DESTRUCTOR = "UnicodeNotation_DESTRUCTOR"
+    }
+    SHORTNAME = "UnicodeNotation"
+    CLSID = "98B8D06B-2D37-46A8-945B-771EA4F5631C"
+    DESCRIPTION = "UnicodeNotation Class"
+    THREADINGMODEL = "APARTMENT"
+    PROGID = "BOUN.UnicodeNotation"
+    VERSION = "1.0"
+}

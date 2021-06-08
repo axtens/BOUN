@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6b0766d2-d5f4-490d-9864-a56069b660ff}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;f90;for;f;fpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e1223e9e-82f8-43be-9903-c033e03f3b43}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{80bcc60a-9753-45ec-8af1-ab98fb2468c1}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Do Not Edit">
+      <UniqueIdentifier>{88f4fa52-d9e0-4dca-abba-ab8c772e057c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BOUN.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="server.idl">
+      <Filter>Do Not Edit</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Surrogacy.f90">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UIUnicodeNotation.f90">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UUnicodeNotationTY.f90">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BOUNGlobal.f90">
+      <Filter>Do Not Edit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="clsfact.f90">
+      <Filter>Do Not Edit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="clsfactty.f90">
+      <Filter>Do Not Edit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dllmain.f90">
+      <Filter>Do Not Edit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IUnicodeNotation.f90">
+      <Filter>Do Not Edit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="server.def">
+      <Filter>Do Not Edit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="serverhelper.f90">
+      <Filter>Do Not Edit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UnicodeNotationTY.f90">
+      <Filter>Do Not Edit</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

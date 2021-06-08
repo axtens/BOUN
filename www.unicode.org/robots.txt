@@ -1,0 +1,30 @@
+User-agent: *
+Disallow: /Public/1.1-Update/	# obsolete data
+Disallow: /Public/2.1-Update2/	# obsolete data
+Disallow: /Public/3.0-Update/	# obsolete data
+Disallow: /Public/2.0-Update/	# obsolete data
+Disallow: /Public/2.1-Update3/	# obsolete data
+Disallow: /Public/2.1-Update/	# obsolete data
+Disallow: /Public/2.1-Update4/	# obsolete data
+Disallow: /Public/3.0-Update1/ # obsolete data
+Disallow: /Public/3.1-Update/  # obsolete data
+Disallow: /Public/3.1-Update1/ # obsolete data
+Disallow: /Public/3.2-Update/ # obsolete data
+Disallow: /Public/4.0-Update/ # obsolete data
+Disallow: /Public/4.0-Update1/ # obsolete data
+Disallow: /Public/4.1.0/	# obsolete data
+Disallow: /Public/5.0.0/	# obsolete data
+Disallow: /anon-ftp/	# same as Public, different path
+Disallow: /Public/MAPPINGS/OBSOLETE/ # obsolete data
+Disallow: /unicode/reports/	# obsolete path
+Disallow: /unicode/members/
+Disallow: /members/
+Disallow: /repository/	# dynamic
+Disallow: /cldr/repository/	# dynamic
+Disallow: /cgi-bin/	# dynamic
+Disallow: /cldr/data/diff/	# dynamic
+Allow: /cldr/data/common/
+Allow: /cldr/data/docs/
+Allow: /cldr/data/tools/
+Disallow: /cldr/data/   # everything else
+Disallow: /cldr/dropbox/	# not really public
